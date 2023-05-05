@@ -21,6 +21,6 @@ setup(
 
     entry_points="""
         [ckan.plugins]
-        oaipmh=ckanext.oaipmh.plugin:OAIPMHPlugin
+        oaipmh_server=ckanext.oaipmh.plugin:OAIPMHPlugin
         """,
 )
