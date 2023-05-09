@@ -28,7 +28,7 @@ if __name__ == '__main__':
     if len(sys.argv) > 3:
         header, metadata, about = test_fetch(sys.argv[1], sys.argv[2], sys.argv[3])
         for item in metadata.getMap().items():
-            print item
+            print(item)
     else:
         for item in test_list(sys.argv[1]):
-            print item
+            print(item)
